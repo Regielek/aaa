@@ -10,7 +10,7 @@ public class Main
             System.out.println();
             for (int c = 1; c <= 10; c++)
             {
-                System.out.print(a * c + " ");
+                System.out.format("%4s", a * c);
             }
         }
     }
